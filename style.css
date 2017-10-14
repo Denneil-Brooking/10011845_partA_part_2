@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    background-image: url("images/background.jpg");
+    background-attachment: fixed;
+    background-position: center 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    align-content: center;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.logo {
+    position: absolute;
+    align-content: center;
+    text-align: center;
+    width: 330px;
+    height: 80px;
+    top: 0;
+}
+
+.book {
+    align-content: center;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    left: 50px;
+    padding-top: 20px;
+    border: 2px solid #000000;
+    background-color: rgba(236, 153, 58, 0);
+    width: 330px;
+    height: 460px;
+}
+
+.book [type=button] {
+    color: #000000;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 15px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.button :hover {
+    color: #000000;
+    font-family: 'Kaushan Script', cursive;
+    background-color: #8AF1FF;
+    border: 1px solid #282163;
+}
+
+.footer {
+    text-align: left;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 15px;
+    position: fixed;
+    width: 100%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border: 1px solid #000000;
+    background-color: rgba(0, 0, 0, 0.48);
+}
